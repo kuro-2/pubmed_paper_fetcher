@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pubmed-parser"
+version = "0.1.2"
+description = "A Python program to fetch research papers from PubMed and filter by non-academic author affiliations."
+authors = ["rohan.sharma6004@gmail.com"]
+readme = "README.md"
+packages = [{include = "pubmed_parser", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "3.12.11"
+biopython = "^1.83"
+lxml = "^5.2.1"
+numpy = "^1.26"
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+
+[tool.poetry.scripts]
+get-papers-list = "pubmed_parser.cli:main" # This line creates the executable command
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
