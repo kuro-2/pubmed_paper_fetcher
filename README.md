@@ -14,6 +14,7 @@ A Python program to fetch research papers from PubMed, identify papers with at l
 - [Heuristics for Non-academic Authors](#heuristics-for-non-academic-authors)
 - [Tools Used](#tools-used)
 - [Evaluation Criteria Addressed](#evaluation-criteria-addressed)
+- [Link to pubmed_parser package in test_pypi](#link-to-pubmed_parser-package-in-test_pypi)
 - [License](#license)
 
 ---
@@ -140,6 +141,7 @@ These heuristics can be refined for higher accuracy.
 - **lxml**: Efficient XML parsing.
 - **argparse**: Command-line argument parsing.
 - **Git/GitHub**: Version control and code hosting.
+- **LLM:** ChatGPT
 
 ---
 
@@ -157,6 +159,12 @@ These heuristics can be refined for higher accuracy.
 - **Bonus**
   - Modular design: `pubmed_parser` module and `cli.py` CLI.
 
+---
+
+## Link to pubmed_parser package in test_pypi
+```sh
+https://test.pypi.org/project/pubmed-parser/
+```
 ---
 
 ## License
