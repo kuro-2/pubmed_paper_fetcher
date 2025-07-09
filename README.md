@@ -46,10 +46,13 @@ pubmed_paper_fetcher/
 ├── pyproject.toml
 ├── README.md
 ├── poetry.lock
+├── tests/
+│   ├── test_parser.py
+│   └── test_cli.py
 └── src/
     └── pubmed_parser/
-        ├── __init__.py  # Core logic for PubMed API interaction, parsing, and filtering
-        └── cli.py       # Command-line interface (CLI) entry point
+        ├── __init__.py    # Core logic for PubMed API interaction, parsing, and filtering
+        └── cli.py         # Command-line interface (CLI) entry point
 ```
 
 - **src/pubmed_parser/__init__.py**: Contains the main logic for interacting with the PubMed API, parsing results, filtering by affiliation, and saving to CSV.
